@@ -1,0 +1,36 @@
+
+.modalka{
+	position: absolute;
+	display: none;
+	width: 70%;
+	height: 394px;
+	background-color: #03060D;
+	z-index: 999;
+	left: 15%;
+	padding:50px 60px 59px 58px;
+	top:200px;
+}
+.modalka .zajavka-posibility{
+	line-height: 170%;
+
+}
+.modalka .top-section__introduce-name{
+	margin: 0;
+	font-size: 36px !important;
+}
+.modalka .top-section__link{
+	margin-top: 0 !important;
+	background-color: transparent !important;
+	border:1px solid #FFFFFF;
+	font-weight: 400 !important;
+}
+.modalka input{
+	margin-bottom: 20px !important;
+}
+#close{
+	position: absolute;
+	top:16px;
+	right: 14px;
+}
+.modalka .zajavka-input {
+    width: 90%;}

@@ -1,0 +1,77 @@
+
+section{
+	background-color: #03060E;
+}
+.header{
+	background-color: #141B3C
+}
+/*Main-Section*/
+.bread-crumbs{
+	padding-top:30px;
+}
+.bread-crumbs a{
+	color:#BBBBBB;
+}
+.bread-crumbs span a{
+	color:#FFFFFF !important;
+}
+.securityp-cam-container{
+	position: relative;
+}
+.securityp-cam-container img{
+	position: absolute;
+	right: 0;
+	top: 47px;
+}
+.securityp-cam-container img:last-child {
+    top: 134px;
+    right: 239px;
+}
+.security-phone{
+	top: 338px !important;
+    right: 170px !important;
+    z-index: 333;
+}
+.main-container .top-section__introduce-name{
+	margin-top:1rem;
+	margin-bottom:20px;
+}
+/* Prices Section*/
+.security-prices-section{
+	margin-top:170px;
+}
+.security-prices-section .row img{
+	object-fit: cover;
+    object-position: top;
+    margin-left: -20%;
+
+
+}
+.sec-prices-container .feature-name{
+	color:#FFFFFF;
+}
+.sec-prices-container{
+	
+}
+.sec-prices-container p{
+	line-height: 170%;
+	margin-bottom:15px !important;
+	font-size: 16px;
+}
+.securityp-prices-container{
+	position: relative;
+
+}
+.securityp-prices-container img{
+	position: absolute;
+	left: 0;
+}
+.securityp{
+	margin-bottom:70px;
+}
+p.security-oxrana {
+    line-height: 170%;
+}
+.securityp-cam-container img {
+    max-width: 100%
+}

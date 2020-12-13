@@ -1,0 +1,106 @@
+section p{
+	font-size: 14px;
+}
+section p,li{
+	color:#BBBBBB;
+}
+
+.feature-name{
+	color:#FFFFFF !important;
+	font-weight: 500 !important;
+}
+.home-action-section{
+	margin-bottom:80px !important;`
+}
+.home-main .securityp-cam-container img{
+	top:140px;
+}
+.home-main .securityp-cam-container .ajax-img{
+	top: 165px !important;
+}
+/* Variations Section */
+.home-variants-section{
+	background-color: #191D25;
+	padding-top: 80px;
+}
+.variants-infobox{
+	position: relative;
+	background-color: #03060E;
+	padding:40px 30px;
+}
+.variants-infobox:before{
+	position: absolute;
+    content: "";
+    top: 250px;
+    left: -21px;
+    width: 0;
+    height: 0;
+    border-top: 16px solid transparent;
+    border-right: 22px solid #03060E;
+    border-bottom: 16px solid transparent;
+}
+.variants-second:before{
+	border-right: 0;
+	border-left: 22px solid #03060E;
+	left:auto;
+	right: -21px;
+	top: 310px;
+}
+.variants-order{
+	text-align: center;
+}
+.variants-infobox ul{
+	padding-left:20px;
+}
+.variants-infobox li{
+	position: relative;
+}
+.variants-infobox li:before{
+	content:"";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 5px;
+	left:-20px;
+	background-color: #1361DA;
+
+}
+.variants-more-services p{
+	color:#BBBBBB;
+	font-weight: 300;
+}
+.home-action-div{
+	padding-bottom:50px;
+}
+.home-action-div:last-child{
+	padding-bottom:100px;
+}
+/* Zajavka Section */
+.zajavka-section{
+	margin-bottom:100px !important;
+}
+.zajavka-police-car{
+	width: 100%;
+}
+.zajavka-input{
+	    width: 60%;
+    border: 0;
+    border-bottom: 1px solid #FFFFFF;
+    /* outline: none; */
+    background: none;
+    padding-bottom: 15px;
+    font-size: 16px;
+    margin-bottom:30px;
+}
+.zajavka-input:focus{
+	outline: none
+}
+input.zajavka-input::placeholder {
+    color: #FFFFFF;
+}
+.zajavka-forma .top-section__link{
+	margin-top:21px;
+}
+section.home-variants-section img {
+    max-width: 100%;
+}

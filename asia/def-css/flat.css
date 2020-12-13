@@ -1,0 +1,35 @@
+section{
+	margin-bottom: 130px;
+}
+
+section p{
+	font-size: 16px;
+	}
+.bg-for-ajax{
+	right:34px !important;
+}
+.ajax-img{
+	right:124px !important;
+}
+.flat-subtitle{
+	font-size: 24px;
+	color:#FFFFFF;
+	margin-bottom: 20px;
+}
+.flat-second .securityp-cam-container img{
+	top:0;
+}
+
+.flat-second .bg-for-ajax{
+	left:0 !important;
+	transform: scale(-1, 1);
+
+}
+.flat-second .ajax-img{
+	right:0 !important;
+
+	left:100px;
+} 
+.section-security.securityp{
+	padding:0;
+}

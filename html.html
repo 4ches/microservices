@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Example</title>
+    <link rel="stylesheet" href="asia/slick.css">
+    <style>
+    </style>
+</head>
+<body>
+<div class="menu">
+    <a href="#">Img 1</a>
+    <a href="#">Img 2</a>
+    <a href="#">Img 3</a>
+    <a href="#">Img 4</a>
+    <a href="#">Img 5</a>
+    <a href="#">Img 6</a>
+    <a href="#">Img 7</a>
+    <a href="#">Img 8</a>
+    <a href="#">Img 9</a>
+    <a href="#">Img 10</a>
+
+</div>
+<div class="container">
+    <div class="slideshow">
+        <div><img src="asia/img/Group 1403.png"></div>
+        <div><img src="asia/img/Group 1400.png"></div>
+        <div><img src="asia/img/Group 1371.png"></div>
+        <div><img src="asia/img/Group 1403.png"></div>
+        <div><img src="asia/img/Group 1400.png"></div>
+        <div><img src="asia/img/Group 1371.png"></div>
+        <div><img src="asia/img/Group 1403.png"></div>
+        <div><img src="asia/img/Group 1400.png"></div>
+        <div><img src="asia/img/Group 1371.png"></div>
+        <div><img src="asia/img/Group 1371.png"></div>
+    </div>
+</div>
+
+<script src="asia/js/jquery-3.5.1.min.js"></script>
+<script src="asia/js/slick.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $(".slideshow").slick({
+        dots: true
+    });
+    $(".menu a").click(function(){
+       
+        slideIndex = $(this).index();
+        $( '.slideshow' ).slickGoTo( parseInt(slideIndex) );
+    });
+});
+</script>
+</body>
+</html>

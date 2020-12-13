@@ -1,0 +1,9 @@
+@import	url('main/sidebar.css');
+@import url('main/main.css');
+@import url('main/header.css');
+.page-container{
+	padding-left: 23.43px;
+	padding-right: 38px;
+	height: inherit;
+    margin: 0 auto;
+}

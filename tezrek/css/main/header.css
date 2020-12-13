@@ -1,0 +1,32 @@
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 500;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.15);
+	height: 65.54px;
+	width: 100%;
+}
+.header__logo{
+	display: flex;
+    list-style-type: none;
+    align-items: center;
+    flex-direction: row;
+    height: inherit;
+}
+.header__logo li{
+	margin-right: 26.87px;
+    position: relative;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.header__logo li:first-child:after{
+	content: "";
+	position: absolute;
+	background: #D2D2D2;
+	width: 1px;
+	height: 32px;
+	right: -13.54px;
+}
